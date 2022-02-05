@@ -52,6 +52,7 @@ In order to train the dissimilarity network, modify the necessary parameters in 
    - For running with different encoders change the architecture in config
    - Also add the deatils of wandb in the configuration file.
    - In order to get the required data for training, please refer to the Dataset section. 
+
 Then run: 
 ```
    cd image_dissimilarity
