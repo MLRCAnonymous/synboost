@@ -45,19 +45,18 @@ For making the data, run the following:
 
 
 ### Training 
-In order to train the dissimilarity network, we have to do the following:
-
-1) Modify the necessary parameters in the configuration file `image_dissimilarity/configs/train/default_configuration.yaml`. 
+In order to train the dissimilarity network, modify the necessary parameters in the configuration file `image_dissimilarity/configs/train/default_configuration.yaml`. 
    - For w/o uncertainty maps make prior = false
    - For w/o data generator + w/o uncertainty maps make prior = false, use the data provided in the dataset section
    - For end to end ensemble make endtoend = True
    - For running with different encoders change the architecture in config
    - Also add the deatils of wandb in the configuration file.
    - In order to get the required data for training, please refer to the Dataset section. 
-2) ```
+Then run: 
+```
    cd image_dissimilarity
    python train.py --config configs/train/default_configuration.yaml
-   ```
+```
 The following file can be run to train the model in kaggle : [Link(kaggle notebook)](https://www.kaggle.com/mlrc2021anonymous/synboost-pytorch)
 
 ### Evaluation
