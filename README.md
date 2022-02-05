@@ -145,6 +145,8 @@ which is neccesary for the synthesis model.
 Simply copy the `symbolic_opset11.py` from this repository and replace the one from the torch module inside your project environment. 
 The file is located `/Path/To/Enviroment/lib/python3.7/site-packages/torch/onnx`
 
+## Weights & Biases
+[Report: All Experiments (Link)](https://wandb.ai/dl-segmentation/MLRC_Synboost/reports/Synboost-MLRC-2021--VmlldzoxNTIyNDk2?accessToken=uevcwtv10q3bwg40rr4zbd3l5rxt4crs3bys6z6zf375xa123qusncm4cv38n95l)
 
 
 ## References
